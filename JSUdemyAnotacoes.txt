@@ -1,0 +1,64 @@
+CURSO DE JAVASCRIPT UDEMY
+
+1- Configuração do ambiente
+	- Instalar o plugin Runner no visual code.
+	- Ctrl + Alt + n = Executa código js no visual code
+	- 
+	
+2- Fundamentos
+	- O js é organizado em sentenças de código que podem pertencer a blocos de códigos;
+	- EcmaScript é o nome formal do JavaScript, ou seja, é a mesma coisa;
+	- Criar variavis usando let, é uma função nova e que se está utilizando agora
+	- JS é fracamente tipada;
+	- colocar typeof antes da váriavel serve para saber de que tipo a mesma é;
+	- Array não tem estrutura fixa;
+	- json = JavaScript object notation, é um formato textual
+	- Objetos em java script do tipo literal: Os objetos trabalham como chave e valor
+	- Com objetos, quando atribuido o um objeto para o outro, os dois passam a apontar para o mesmo endereço de memória, então ao alterar um objeto o outro também será alterado.
+	- Já ao atribuir variaveis local, o que é atribuido é o valor;
+	VAR
+		- No js a a declaração de variaveis var fica visivel em qualquer parte do sistema independente de onde a mesma foi declarada, independente do bloco.
+		- Porém quando se define uma variavel dentro de uma função, a mesma só fica disponivel dentro da função
+		-Var só tem dois escopos possíveis, pode ser global que pode ser visivel para todo mundo, ou então se cria dentro do escopo da function e ela pode ser visivel somente dentro da function
+		- FUJA DO ESCOPO GLOBAL
+	
+	LET
+		- Ao usar let para declarar a variavel, caso declarado dentro de um bloco qualquer e decrado globalmente, a variavel não será sobreescrita. Dentro do escopo ela irá ter o valor que se atriubiu para ela, e fora ela terá outro valor.
+		Porém se declarar a variavel fora e usa-la dentro do escopo, ela irá funcionar também. O js pega a variavel que esta mais perto do escopo.
+		- Escopo de função, global, e de bloco.
+		- Caso a variavel seja definida dentro de um bloco e utilizada fora, consistirá em um erro, pois ela só esta visivel dentro do bloco.
+	  
+	Hoisting = Içar, jogar a variavel para cima, ele primeiro cria a variavel, o compilador entende que tem que primeiro criar a variavel, porém só irá ser atribuido o valor na linha em que está declarado. Isso ocorre apenas com variaveis declaradas como VAR.
+	Objeto
+	- A forma de criar objetos em js é através de função;
+	- Constantes e variavies declaradas como const não vão para o escopo global window do navegador, apenas variaveis declaradas com var que vão.
+	- Para fugir do escopo global deve-se criar objetos
+	- Quando estiver dentro de um contexto de objeto, o this vai apontar para o própio objeto, quando estiver fora o this é igual ao window
+
+5- FUNÇÃO
+	- Array interno de uma função, ou seja, uma função pode ter nenhum parametro, mas se mesmo assim for passado parametros para ela, é possível recuperar pela palavra reservada arguments.
+	- this: quando se tem uma função tradicional criada com a palavra function, o this pode variar, ja quando se tem uma função arrow o this não varia.
+	-
+	
+	
+		
+	
+	
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
