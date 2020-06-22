@@ -40,7 +40,8 @@ CURSO DE JAVASCRIPT UDEMY
 	- this: quando se tem uma função tradicional criada com a palavra function, o this pode variar, ja quando se tem uma função arrow o this não varia.
 	-
 	
-	
+6- Filter
+	- Retorna um novo array conforme a condição passada, que deve ser true or false
 		
 	
 	
