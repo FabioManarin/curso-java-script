@@ -43,10 +43,9 @@ CURSO DE JAVASCRIPT UDEMY
 6- Filter
 	- Retorna um novo array conforme a condição passada, que deve ser true or false
 		
-	
-	
-		
-		
+NODE
+	- Um arquivo significa um módulo
+	- Dependencia nodemon serve para ficar rodando um arquivo .js, e sempre que salvar será reestartado pegando a última versão do arquivo. Ex.: nodemon <nomeDoArquivo.js>
 		
 		
 		
