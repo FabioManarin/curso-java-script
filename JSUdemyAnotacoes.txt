@@ -46,7 +46,9 @@ CURSO DE JAVASCRIPT UDEMY
 NODE
 	- Um arquivo significa um módulo
 	- Dependencia nodemon serve para ficar rodando um arquivo .js, e sempre que salvar será reestartado pegando a última versão do arquivo. Ex.: nodemon <nomeDoArquivo.js>
-		
+	- npm init -y cria respondendo todas as perguntas como sim
+	- function a(...nomes) {} Passa um array por parametro
+	- __dirname pega o diretório atual
 		
 		
 		
